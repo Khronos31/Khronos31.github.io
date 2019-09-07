@@ -1,53 +1,48 @@
 Package: com.khronos.libiconv
 Architecture: iphoneos-arm
-Version: 1.15
+Version: 1.15-1
 Section: Development
 Maintainer: Khronos
-Installed-Size: 1584
-Filename: ./debs/com.khronos.libiconv_1.15.deb
-Size: 772128
-MD5sum: 74e4afe1c7666b3c4bd96d8012c61ce4
-SHA1: ae585e3ce69a47127f9125249bd20e9fc233031b
-SHA256: d709b2634b89b756ea9325861dbb485ba123f223ee4b8bbb4ae50b5eccaddff9
-SHA512: e4e3c0e5ca95e57f3c3fca02de2ccac69274eaecfdf05e07fea9dc36d51298f93059482968354f1cfbf475f055fcea743c8b991c6cf089b6733b99c93c6b9156
+Filename: ./debs/com.khronos.libiconv_1.15-1.deb
+Size: 772100
+MD5sum: 83a6df4f946af48b9ef193ed3c5fd889
+SHA1: 4b7ab184d7c9dbcfeb796a331667a9def898975d
+SHA256: 85fa0781b2ec3396c2bce59d29c472c52ee69357f6aeaf14211e6b5b5925327e
+SHA512: 978d3cfaca189f1c160d06d78584503930576d8733194bde17b9ad8ae0e28b82029c96dfa51417e2ef65d386438d9b8f0f451fc3a2d1c85af7c5f847cc78188f
 Description: charset conversion library
 Tag: role::developer, purpose::library
 Name: libiconv
-Author: Khronos
 
 Package: com.khronos.libressl
 Architecture: iphoneos-arm
-Version: 2.9.0
+Version: 2.9.0-1
 Section: Security
-Installed-Size: 20108
-Filename: ./debs/com.khronos.libressl_2.9.0.deb
-Size: 6524262
-MD5sum: 8b123b28e12fed43cb9d9fed4c9f92ea
-SHA1: ae1ab49e0751423cb614747048337bcf90608595
-SHA256: e9192c0f5ecd80addafd31be867268bb7953ad951dfeeb14b58670c88f01049d
-SHA512: a2055e87050a470f0181c2d9444f1d6af7a31630417381d8ad0bc4d2bb28ce23be3e1870d9e1c838a62ab5a2f5becbbf9de0dc4456774165b97014ace24beb57
+Maintainer: Khronos
+Filename: ./debs/com.khronos.libressl_2.9.0-1.deb
+Size: 6524264
+MD5sum: d404f65b0ceda67c31cfeac0d4925972
+SHA1: 49a06d4034010dab465954212fb18d02daee2a2f
+SHA256: d849665c23139200b627e32d79a9f514df991acc1290ac696d6e44f4d47d9ea0
+SHA512: f0430880e6f1f3aceaf7d8ca6551fe6af62f210fa711578a4761678157b1e0579ac124d8883f1b57aed3d9bae7e98cf3271ec38e90a85de185716235018ccef6
 Description: Secure Sockets Layer and cryptography libraries and tools
 Tag: role::developer
 Name: LibreSSL
-Author: Khronos
 
 Package: com.khronos.lua
 Architecture: iphoneos-arm
-Version: 5.3.5
+Version: 5.3.5-1
 Section: Scripting
 Maintainer: Khronos
-Installed-Size: 808
 Depends: readline
-Filename: ./debs/com.khronos.lua_5.3.5.deb
-Size: 273020
-MD5sum: 36213029910fa0d39e506e755776d484
-SHA1: 5b99e403bcd5b047c78d854e3d7f20234ea87d9b
-SHA256: 63912866918df102517fa096ac65f42b8370808ca7a696ce2ecca1a875da8b15
-SHA512: e96f8bab06dc9a1d3fd6c95f23dd12369b62e3a13556fb17c1800a81b49d1c3950e19e541466833942da7650ed1e701d0c0d7998eaa60c371076803f2f0d6627
+Filename: ./debs/com.khronos.lua_5.3.5-1.deb
+Size: 273006
+MD5sum: 6221e9d902a6beeeebf8c474c9fcc381
+SHA1: 73a4911702e1f53dc3969d78fd72a8ed4375e000
+SHA256: 05a7ff347441666a46518582fddf8d28a2f1d118c57397a87e9a30a382b40987
+SHA512: b423f9eb74cbffbe915c2f10da2bd3abb109b5520ae06fa0bd77ddb7a92aaddb5e3bbed88231184c4a2d8a389b174386dd273442aafdc4123cf1745f05e88736
 Description: Lua is a powerful, efficient, lightweight, embeddable scripting language.
 Tag: role::developer, purpose::console
 Name: Lua
-Author: Khronos
 
 Package: com.khronos.luarocks
 Architecture: iphoneos-arm
@@ -57,63 +52,58 @@ Maintainer: Khronos
 Installed-Size: 650
 Depends: com.khronos.lua
 Filename: ./debs/com.khronos.luarocks_3.2.1-1.deb
-Size: 152416
-MD5sum: 9cd1ab8f9f22ff5f81ffdda182e4cfd7
-SHA1: b0c2fe5649bb37f65024014ae43b79615614447d
-SHA256: 699d64b63b9ed1a06dac91531a9f20b1015ca56575fcfb21d824a11f062a222a
-SHA512: c63ea932127952a4b80c367b26a6f838e73619de0ba7b8a42fbccd8f0ac29d2b7f3287c294cdc2366ee7d4bdc3c7700c6077760a94e26b28c35c54fc133bb1bb
+Size: 152446
+MD5sum: 3bed9554373278ec1119e6d2dc4eeebc
+SHA1: 9c25ba6cf38d29a5fdee11c759ca534daaefc0b9
+SHA256: cb11c4bf61c87394384fa090b8a2a1babc8be4d705ba4535d5e8c4fe45126ea0
+SHA512: 668afce86d1f497368b877e76e68ab5f436dd7231b9725fc0ae315960f712407eb3839c823479ebb8d52f5530c887ba68062bcae2389bd49554e68cf70cc566f
 Description: A package manager for Lua modules.
 Tag: role::developer,purpose::console
 Name: LuaRocks
 
 Package: com.khronos.readline
 Architecture: iphoneos-arm
-Version: 8.0
+Version: 8.0-1
 Section: Development
 Maintainer: Khronos
-Installed-Size: 2308
 Depends: ncurses
-Filename: ./debs/com.khronos.readline_8.0.deb
-Size: 795402
-MD5sum: 4be1409b9168046d621de7cb9f4d04bb
-SHA1: 2ff87d8ea13f924f5b417f34c5135042fbe1b116
-SHA256: 19af2bfd004b3f308b55548371a6c84e205a145f7d1d5994ddb4f9ffdbf3da5b
-SHA512: 13702784ef9414846a19f4c3f7168c52b20dacde8074646e0e81c4676388636647d91f9c24cbf46d7c5724a7a47d649ac131b78b1fe8f8247197cad378fa6afa
+Filename: ./debs/com.khronos.readline_8.0-1.deb
+Size: 795388
+MD5sum: 532ec55e4f3e8a7bcddf90694118212e
+SHA1: b4dcdd5a65f017fde46d184f53230a30f5d37182
+SHA256: 9515d214a10cfce9c41f6424cacc45527664f2e21637908c73f8c696c31dcfc0
+SHA512: 8af0baa8e82e4c57a828f836e48c1d1625997c6d4d7602f4707ced96961cb5b88538a161eeabfa61ebba18eb17071eabe01c47980babdf35fab965d3188b42f5
 Description: Gnu Readline library for command line editing
 Tag: role::developer, purpose::library
 Name: Readline
-Author: Khronos
 
 Package: com.khronos.sqlite3
 Architecture: iphoneos-arm
-Version: 3.27.2
+Version: 3.27.2-1
 Section: Data_Storage
 Maintainer: Khronos
-Installed-Size: 11840
-Filename: ./debs/com.khronos.sqlite3_3.27.2.deb
-Size: 4369302
-MD5sum: 2b6c896225f19f79a81514fe76863da5
-SHA1: bf3da8670f36f391980c9cf05b33bcf5eb55c1f5
-SHA256: 1689de5a241a3a207e5d0aef85f129273de3b5032c9a545e4d5f2deff469f5fa
-SHA512: 02ed26800246ec4006581a1b28ed6e84521989c5972fc138dd84f947906beeded5081838d62784b6dd7b21c0ef3c535e29a11e168c2bf1d4deffda470b732af7
+Filename: ./debs/com.khronos.sqlite3_3.27.2-1.deb
+Size: 4369286
+MD5sum: 6078ab9503307396de57a7c469c65600
+SHA1: e5e05a699e081743a66baa3f0827c9b9f70c07dc
+SHA256: 2b5a1addfe0af14630cc615a37e25897e95175d9f26a5cd538aeebfd236e0717
+SHA512: 1b53911fcb7926e92819a362136b0493debfbac7aef50bb9ab8cdc3e647a5cd4fe42d832029ac9a9e0b6257ebf0f978ee699935f5a22b8657a676e90eff20e26
 Description: SQL database engine
 Tag: role::developer, purpose::console
 Name: SQLite 3.x
 
 Package: com.khronos.zlib
 Architecture: iphoneos-arm
-Version: 1.2.11
+Version: 1.2.11-1
 Section: Development
 Maintainer: Khronos
-Installed-Size: 368
-Filename: ./debs/com.khronos.zlib_1.2.11.deb
-Size: 138718
-MD5sum: 6eab1b278db9137beb28e703b5ea1cca
-SHA1: a29530ce5f4e553fcc68a01964e947facd6cf770
-SHA256: 0e4254dee8766b75069d497d3a2d23ed43600baa8083fd5b5024d1053471533e
-SHA512: b00650be539585ffc960ebd827e7c3a1467522aabf7e0197454768d81f24ce7432bc79cb550ff0ac25b3621ad2d3f9368c513bf814ce16c6f0526e86b34a894f
+Filename: ./debs/com.khronos.zlib_1.2.11-1.deb
+Size: 138688
+MD5sum: 497be74360f095a7f9e166329c92916f
+SHA1: 00ddc5d22152df3be213b17370eadcab5f7dd13e
+SHA256: f2e4a751d0c62c5b10b7a83989d5709673d30409e521367c1b1e393a2448f8d0
+SHA512: 6c4e463017bb05578dbd0711b8fcc9bc1dda62869d550ddfb11b36086a4644f2383110d61cba3851b347e793c33da166d9649db123557b181e18c6447548ea86
 Description: zlib compression library
 Tag: role::developer,purpose::library
 Name: zlib
-Author: Khronos
 
