@@ -4,7 +4,7 @@ Version: 1.15
 Section: Development
 Maintainer: Khronos
 Installed-Size: 1584
-Filename: ./debs/com.khronos.libiconv_1.15_arm64.deb
+Filename: ./debs/com.khronos.libiconv_1.15.deb
 Size: 772128
 MD5sum: 74e4afe1c7666b3c4bd96d8012c61ce4
 SHA1: ae585e3ce69a47127f9125249bd20e9fc233031b
@@ -20,7 +20,7 @@ Architecture: iphoneos-arm
 Version: 2.9.0
 Section: Security
 Installed-Size: 20108
-Filename: ./debs/com.khronos.libressl_2.9.0_arm64.deb
+Filename: ./debs/com.khronos.libressl_2.9.0.deb
 Size: 6524262
 MD5sum: 8b123b28e12fed43cb9d9fed4c9f92ea
 SHA1: ae1ab49e0751423cb614747048337bcf90608595
@@ -38,7 +38,7 @@ Section: Scripting
 Maintainer: Khronos
 Installed-Size: 808
 Depends: readline
-Filename: ./debs/com.khronos.lua_5.3.5_arm64.deb
+Filename: ./debs/com.khronos.lua_5.3.5.deb
 Size: 273020
 MD5sum: 36213029910fa0d39e506e755776d484
 SHA1: 5b99e403bcd5b047c78d854e3d7f20234ea87d9b
@@ -74,7 +74,7 @@ Section: Development
 Maintainer: Khronos
 Installed-Size: 2308
 Depends: ncurses
-Filename: ./debs/com.khronos.readline_8.0_arm64.deb
+Filename: ./debs/com.khronos.readline_8.0.deb
 Size: 795402
 MD5sum: 4be1409b9168046d621de7cb9f4d04bb
 SHA1: 2ff87d8ea13f924f5b417f34c5135042fbe1b116
@@ -85,13 +85,29 @@ Tag: role::developer, purpose::library
 Name: Readline
 Author: Khronos
 
+Package: com.khronos.sqlite3
+Architecture: iphoneos-arm
+Version: 3.27.2
+Section: Data_Storage
+Maintainer: Khronos
+Installed-Size: 11840
+Filename: ./debs/com.khronos.sqlite3_3.27.2.deb
+Size: 4369302
+MD5sum: 2b6c896225f19f79a81514fe76863da5
+SHA1: bf3da8670f36f391980c9cf05b33bcf5eb55c1f5
+SHA256: 1689de5a241a3a207e5d0aef85f129273de3b5032c9a545e4d5f2deff469f5fa
+SHA512: 02ed26800246ec4006581a1b28ed6e84521989c5972fc138dd84f947906beeded5081838d62784b6dd7b21c0ef3c535e29a11e168c2bf1d4deffda470b732af7
+Description: SQL database engine
+Tag: role::developer, purpose::console
+Name: SQLite 3.x
+
 Package: com.khronos.zlib
 Architecture: iphoneos-arm
 Version: 1.2.11
 Section: Development
 Maintainer: Khronos
 Installed-Size: 368
-Filename: ./debs/com.khronos.zlib_1.2.11_arm64.deb
+Filename: ./debs/com.khronos.zlib_1.2.11.deb
 Size: 138718
 MD5sum: 6eab1b278db9137beb28e703b5ea1cca
 SHA1: a29530ce5f4e553fcc68a01964e947facd6cf770
