@@ -51,35 +51,17 @@ Author: Khronos
 
 Package: com.khronos.luarocks
 Architecture: iphoneos-arm
-Version: 3.0.4
+Version: 3.2.1-1
 Section: Packaging
 Maintainer: Khronos
-Installed-Size: 776
+Installed-Size: 650
 Depends: com.khronos.lua
-Filename: ./debs/com.khronos.luarocks_3.0.4.deb
-Size: 134662
-MD5sum: 1b2646fb07d1a44d2ccddfd72280e5c6
-SHA1: 956ac7ba0872bf1a5cd62abed60887efe9266c59
-SHA256: 3d09bc9bdb2d9a9dabc5e03dc7dca40ca33d4b7bf624fbfeaea1eea7626da776
-SHA512: f67ae15eb3806d3c65df31c03feca3454090044baaf17a8dae28b3f938eba1736b8a0f607f2bb484aab45abc6d32bc9abe8614b6c6759d35b787c372bf682f70
-Description: A package manager for Lua modules.
-Tag: role::developer,purpose::console
-Name: LuaRocks
-Author: Khronos
-
-Package: com.khronos.luarocks
-Architecture: iphoneos-arm
-Version: 3.2.1
-Section: Packaging
-Maintainer: Khronos
-Installed-Size: 776
-Depends: com.khronos.lua
-Filename: ./debs/com.khronos.luarocks_3.2.1.deb
-Size: 152412
-MD5sum: cff5e43b91186d1df2a03d8f419aa2c3
-SHA1: 196ed9c9f60bfd6124c2e57df6997d4ef5baaf22
-SHA256: 1d33d504e6be981e58014eb7dd62cfed64cd2a1a7a6553379196d564f818a4d9
-SHA512: 604bd6c200d2aae77070ac933e79948c19c7039989517e57f2593df15d9b46181eb3cefe3695ad6c200e9dbe9739b06055eba6ca9c4a6449b91011f8d0117470
+Filename: ./debs/com.khronos.luarocks_3.2.1-1.deb
+Size: 152416
+MD5sum: 9cd1ab8f9f22ff5f81ffdda182e4cfd7
+SHA1: b0c2fe5649bb37f65024014ae43b79615614447d
+SHA256: 699d64b63b9ed1a06dac91531a9f20b1015ca56575fcfb21d824a11f062a222a
+SHA512: c63ea932127952a4b80c367b26a6f838e73619de0ba7b8a42fbccd8f0ac29d2b7f3287c294cdc2366ee7d4bdc3c7700c6077760a94e26b28c35c54fc133bb1bb
 Description: A package manager for Lua modules.
 Tag: role::developer,purpose::console
 Name: LuaRocks
