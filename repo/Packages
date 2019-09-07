@@ -61,6 +61,37 @@ Description: A package manager for Lua modules.
 Tag: role::developer,purpose::console
 Name: LuaRocks
 
+Package: com.khronos.mecab-ipadic
+Architecture: iphoneos-arm
+Version: 2.7.0-20070801-1
+Section: Dictionaries
+Maintainer: Khronos
+Filename: ./debs/com.khronos.mecab-ipadic_2.7.0-20070801-1.deb
+Size: 13419776
+MD5sum: ae6edfb5cec138c52254e9c21ee84118
+SHA1: 45dd317efc13ae4336f783396c6a38ddcc9283e6
+SHA256: f917919f39d96eb4c9103a7d8d4c597d0af34d61d1e197c3cc92a2c2282ad3d0
+SHA512: 7998602e49128f09830fdd17062de7132e5dae4483cc55abdde07a986a0d3c5098b27d11a88549ddee383ca41c8f88f3ba37b959904aebbcb53721875f4a964e
+Description: IPA dictionary for MeCab.
+Tag: role::user
+Name: MeCab-ipadic
+
+Package: com.khronos.mecab
+Architecture: iphoneos-arm
+Version: 0.996-1
+Section: Utilities
+Maintainer: Khronos
+Depends: com.khronos.mecab-ipadic
+Filename: ./debs/com.khronos.mecab_0.996-1.deb
+Size: 779446
+MD5sum: b730949d4742ab240d40efa0987e2c4c
+SHA1: 09930185ea2d653675d5fec6e55d0f2702bd224a
+SHA256: b223ebd6d60e854885d5a1a674da0e3d53f555166e072eacda2e21ffeac855b3
+SHA512: 4241a8b8e1c97048073fceee8d7d52c1789bc74a381c782a450f52c7bf5eb1cb127156bbbcacc840b67c10f634014b0715a5abcae9f26875244a50d4e95c93e9
+Description: MeCab is a morphological analysis engine.
+Tag: role::user,purpose::console
+Name: MeCab
+
 Package: com.khronos.readline
 Architecture: iphoneos-arm
 Version: 8.0-1
