@@ -1,0 +1,104 @@
+Package: com.khronos.libiconv
+Architecture: iphoneos-arm
+Version: 1.15
+Section: Development
+Maintainer: Khronos
+Installed-Size: 1584
+Filename: ./debs/com.khronos.libiconv_1.15_arm64.deb
+Size: 772128
+MD5sum: 74e4afe1c7666b3c4bd96d8012c61ce4
+SHA1: ae585e3ce69a47127f9125249bd20e9fc233031b
+SHA256: d709b2634b89b756ea9325861dbb485ba123f223ee4b8bbb4ae50b5eccaddff9
+SHA512: e4e3c0e5ca95e57f3c3fca02de2ccac69274eaecfdf05e07fea9dc36d51298f93059482968354f1cfbf475f055fcea743c8b991c6cf089b6733b99c93c6b9156
+Description: charset conversion library
+Tag: role::developer, purpose::library
+Name: libiconv
+Author: Khronos
+
+Package: com.khronos.libressl
+Architecture: iphoneos-arm
+Version: 2.9.0
+Section: Security
+Installed-Size: 20108
+Filename: ./debs/com.khronos.libressl_2.9.0_arm64.deb
+Size: 6524262
+MD5sum: 8b123b28e12fed43cb9d9fed4c9f92ea
+SHA1: ae1ab49e0751423cb614747048337bcf90608595
+SHA256: e9192c0f5ecd80addafd31be867268bb7953ad951dfeeb14b58670c88f01049d
+SHA512: a2055e87050a470f0181c2d9444f1d6af7a31630417381d8ad0bc4d2bb28ce23be3e1870d9e1c838a62ab5a2f5becbbf9de0dc4456774165b97014ace24beb57
+Description: Secure Sockets Layer and cryptography libraries and tools
+Tag: role::developer
+Name: LibreSSL
+Author: Khronos
+
+Package: com.khronos.lua
+Architecture: iphoneos-arm
+Version: 5.3.5
+Section: Scripting
+Maintainer: Khronos
+Installed-Size: 808
+Depends: readline
+Filename: ./debs/com.khronos.lua_5.3.5_arm64.deb
+Size: 273020
+MD5sum: 36213029910fa0d39e506e755776d484
+SHA1: 5b99e403bcd5b047c78d854e3d7f20234ea87d9b
+SHA256: 63912866918df102517fa096ac65f42b8370808ca7a696ce2ecca1a875da8b15
+SHA512: e96f8bab06dc9a1d3fd6c95f23dd12369b62e3a13556fb17c1800a81b49d1c3950e19e541466833942da7650ed1e701d0c0d7998eaa60c371076803f2f0d6627
+Description: Lua is a powerful, efficient, lightweight, embeddable scripting language.
+Tag: role::developer, purpose::console
+Name: Lua
+Author: Khronos
+
+Package: com.khronos.luarocks
+Architecture: iphoneos-arm
+Version: 3.0.4
+Section: Packaging
+Maintainer: Khronos
+Installed-Size: 776
+Depends: com.khronos.lua
+Filename: ./debs/com.khronos.luarocks_3.0.4.deb
+Size: 134662
+MD5sum: 1b2646fb07d1a44d2ccddfd72280e5c6
+SHA1: 956ac7ba0872bf1a5cd62abed60887efe9266c59
+SHA256: 3d09bc9bdb2d9a9dabc5e03dc7dca40ca33d4b7bf624fbfeaea1eea7626da776
+SHA512: f67ae15eb3806d3c65df31c03feca3454090044baaf17a8dae28b3f938eba1736b8a0f607f2bb484aab45abc6d32bc9abe8614b6c6759d35b787c372bf682f70
+Description: A package manager for Lua modules.
+Tag: role::developer,purpose::console
+Name: LuaRocks
+Author: Khronos
+
+Package: com.khronos.readline
+Architecture: iphoneos-arm
+Version: 8.0
+Section: Development
+Maintainer: Khronos
+Installed-Size: 2308
+Depends: ncurses
+Filename: ./debs/com.khronos.readline_8.0_arm64.deb
+Size: 795402
+MD5sum: 4be1409b9168046d621de7cb9f4d04bb
+SHA1: 2ff87d8ea13f924f5b417f34c5135042fbe1b116
+SHA256: 19af2bfd004b3f308b55548371a6c84e205a145f7d1d5994ddb4f9ffdbf3da5b
+SHA512: 13702784ef9414846a19f4c3f7168c52b20dacde8074646e0e81c4676388636647d91f9c24cbf46d7c5724a7a47d649ac131b78b1fe8f8247197cad378fa6afa
+Description: Gnu Readline library for command line editing
+Tag: role::developer, purpose::library
+Name: Readline
+Author: Khronos
+
+Package: com.khronos.zlib
+Architecture: iphoneos-arm
+Version: 1.2.11
+Section: Development
+Maintainer: Khronos
+Installed-Size: 368
+Filename: ./debs/com.khronos.zlib_1.2.11_arm64.deb
+Size: 138718
+MD5sum: 6eab1b278db9137beb28e703b5ea1cca
+SHA1: a29530ce5f4e553fcc68a01964e947facd6cf770
+SHA256: 0e4254dee8766b75069d497d3a2d23ed43600baa8083fd5b5024d1053471533e
+SHA512: b00650be539585ffc960ebd827e7c3a1467522aabf7e0197454768d81f24ce7432bc79cb550ff0ac25b3621ad2d3f9368c513bf814ce16c6f0526e86b34a894f
+Description: zlib compression library
+Tag: role::developer,purpose::library
+Name: zlib
+Author: Khronos
+
