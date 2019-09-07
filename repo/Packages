@@ -67,13 +67,13 @@ Version: 2.7.0-20070801-1
 Section: Dictionaries
 Maintainer: Khronos
 Filename: ./debs/com.khronos.mecab-ipadic_2.7.0-20070801-1.deb
-Size: 13419776
-MD5sum: ae6edfb5cec138c52254e9c21ee84118
-SHA1: 45dd317efc13ae4336f783396c6a38ddcc9283e6
-SHA256: f917919f39d96eb4c9103a7d8d4c597d0af34d61d1e197c3cc92a2c2282ad3d0
-SHA512: 7998602e49128f09830fdd17062de7132e5dae4483cc55abdde07a986a0d3c5098b27d11a88549ddee383ca41c8f88f3ba37b959904aebbcb53721875f4a964e
+Size: 13419804
+MD5sum: 361a02d9378d5a3a36f35fe000a51ece
+SHA1: beedd1801fe1191a138fb0d935d5ef0847045112
+SHA256: 033133200ad97ba8d9cf1cad77c5bd600bd0373a35b9b822e3adb0bfbe4c9215
+SHA512: 6a5c731b92b19a091ca96ee0cc86610a8e9fb2b524eafa5e72fa380ca224168602c0d24f6ea5adb3cdac6f76b662dad4bf7ad9db8d275042d4f26ecd73946872
 Description: IPA dictionary for MeCab.
-Tag: role::user
+Tag: role::enduser
 Name: MeCab-ipadic
 
 Package: com.khronos.mecab
@@ -83,13 +83,13 @@ Section: Utilities
 Maintainer: Khronos
 Depends: com.khronos.mecab-ipadic
 Filename: ./debs/com.khronos.mecab_0.996-1.deb
-Size: 779446
-MD5sum: b730949d4742ab240d40efa0987e2c4c
-SHA1: 09930185ea2d653675d5fec6e55d0f2702bd224a
-SHA256: b223ebd6d60e854885d5a1a674da0e3d53f555166e072eacda2e21ffeac855b3
-SHA512: 4241a8b8e1c97048073fceee8d7d52c1789bc74a381c782a450f52c7bf5eb1cb127156bbbcacc840b67c10f634014b0715a5abcae9f26875244a50d4e95c93e9
+Size: 779450
+MD5sum: fcdd4e03f5f2f252b865070d6c2a24c3
+SHA1: 2a017f969f1370b6892c432015dfe36df0e768cf
+SHA256: 111f6909ccff9032f6f54079aa4488316f8cae6366db5d0bb6c855a4f2de11a3
+SHA512: eae7d0d712b895f6bd1c338e3addfec583642b4035f5f06b32d95c5bd07a0362f75c8b0bc501fb904d30c4a12ad0360fab773215f787e2785ecb9549ee71d512
 Description: MeCab is a morphological analysis engine.
-Tag: role::user,purpose::console
+Tag: role::enduser,purpose::console
 Name: MeCab
 
 Package: com.khronos.readline
