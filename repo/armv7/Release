@@ -1,8 +1,8 @@
-Origin: Khronos31
-Label: Khronos31
+Origin: Khronos31's Repo (armv7)
+Label: Khronos31-armv7
 Suite: stable
 Version: 1.0
 Codename: stable
 Architectures: iphoneos-arm
 Components: main
-Description: Khronos31's repo.
+Description: Khronos31's repo (armv7).
