@@ -1,3 +1,80 @@
+Package: com.khronos.libiconv
+Architecture: iphoneos-arm
+Version: 1.15-2
+Section: Development
+Maintainer: Khronos
+Filename: ../debs/armv7/com.khronos.libiconv_1.15-2_iphoneos-arm.deb
+Size: 743792
+MD5sum: 932df0dfc1e78c1edc2018fac9697b5d
+SHA1: e8431b55a9d8130b4528bacaf110ec3096cb844f
+SHA256: a2c0b441c445a4dde2bd59ddab62708df251853ffa9aa94c3ecf88a61dfae27d
+SHA512: 0cf4c851e0b03ae8899bae4d1f57cd670816092022de07df1df81a193489b4d16c60f0e70e0e00e22ed26654e0b7967b5fa0c9fdaaf415a9dcdeb878c50ed0be
+Description: charset conversion library
+Tag: role::developer, purpose::library
+Name: libiconv
+
+Package: com.khronos.libressl
+Architecture: iphoneos-arm
+Version: 2.9.0-2
+Section: Security
+Filename: ../debs/armv7/com.khronos.libressl_2.9.0-2_iphoneos-arm.deb
+Size: 6258870
+MD5sum: 92479fe02d36751b23dbc08859e99630
+SHA1: bb759c1263ebde9e69cd03a9775f036a3ea20842
+SHA256: c49363a36686de9a6aa941b4bc8ed30c77e58b68a1287c115e39bcf4ff2cd101
+SHA512: 3b01aaa0c58773feaebb70b6ca68f45dd32745a16afd9015facb431ed2beface701c4eb0e093421d27ae351bf4a7f221d8e8ead4eaaf301c716ad8c6147c5e15
+Description: Secure Sockets Layer and cryptography libraries and tools
+Tag: role::developer
+Name: LibreSSL
+Mantainer: Khronos
+
+Package: com.khronos.lua
+Architecture: iphoneos-arm
+Version: 5.3.5-2
+Section: Scripting
+Maintainer: Khronos
+Depends: com.khronos.readline | readline
+Filename: ../debs/armv7/com.khronos.lua_5.3.5-2_iphoneos-arm.deb
+Size: 249386
+MD5sum: 5c360a7ef4106ed3872991a022fdc059
+SHA1: f5a87fb1839f02b9e828dada29ddf6b094a7d977
+SHA256: d14ed23b343510ab8af87565929660bb02f58ea49fe2304d9c7cc00d5c01be6c
+SHA512: 76eb0fee65f983e5de7216b282d733d03d6373e75356fa150c74d3303f1898b340b266c37894f43e2e83b8ac7f0b6d3d044b9fe95cd88126ff320ffa3c38c332
+Description: Lua is a powerful, efficient, lightweight, embeddable scripting language.
+Tag: role::developer, purpose::console
+Name: Lua
+
+Package: com.khronos.readline
+Architecture: iphoneos-arm
+Version: 8.0-2
+Section: Development
+Maintainer: Khronos
+Depends: com.khronos.ncurses | ncurses
+Filename: ../debs/armv7/com.khronos.readline_8.0-2_iphoneos-arm.deb
+Size: 787574
+MD5sum: 5ab762fe8149cb099662e72363f95ecd
+SHA1: 1bc5099b75107b8386db33247b2db2461b9efa11
+SHA256: eedfdef2079bd175f47e560880ca2a4f5d8651fae69b32872a4ae993be3598d8
+SHA512: c0dbdbe3edf804727e0b123863b94485752de0b8a7968f70d8d25483786969a8141e2b49a0bb15055e834d759ac5eb25f62b8bac4ad7bcc443edac96ef2e9ebd
+Description: Gnu Readline library for command line editing
+Tag: role::developer, purpose::library
+Name: Readline
+
+Package: com.khronos.zlib
+Architecture: iphoneos-arm
+Version: 1.2.11-2
+Section: Development
+Maintainer: Khronos
+Filename: ../debs/armv7/com.khronos.zlib_1.2.11-2_iphoneos-arm.deb
+Size: 124188
+MD5sum: 886db7ea7c81481c8ca5e87ff1f39c10
+SHA1: bc5e7311700f5de58d7055added5d92c3a574d58
+SHA256: d17ed5934f94e01b795d0062846843ce2b8bb0a407506125fdd3d626d0695044
+SHA512: d47c975be665af3f28aec1969d6ffd73af11b6af0545fb818f9aabb644799a7fb75e35c09c7c16ed128e21d0344a87f3373294b623759257c828a72195bcba8f
+Description: zlib compression library
+Tag: role::developer,purpose::library
+Name: zlib
+
 Package: com.khronos.luarocks
 Architecture: iphoneos-arm
 Version: 3.2.1-1
