@@ -1,18 +1,18 @@
 Package: com.khronos.golang
 Architecture: iphoneos-arm
-Version: 1.13.5-10
+Version: 1.13.5-11
 Priority: optional
 Section: Scripting
 Maintainer: Khronos
 Pre-Depends: dpkg
 Depends: com.khronos.sdk
 Conflicts: com.mc.golang
-Filename: debs/arm64/com.khronos.golang_1.13.5-10_arm64.deb
-Size: 63947916
-MD5sum: 89c538a06930fcf8d046462599a0ad3f
-SHA1: 8d57eb7fbe15cf812f391995d9bb33a4c493826e
-SHA256: 1c84efc8d03578d1b2b5cace569c9638ca7fd4c60a3fed596bcf83bb608b357f
-SHA512: 59c6aad9d7920b583cc67413767554ab611f1f1a48521eac4720ecdbf2e3edbc42fa0ac83a8051df61d6a4b10c6d4ba60027e44b73af37f8ce95e52374c9938d
+Filename: debs/arm64/com.khronos.golang_1.13.5-11_arm64.deb
+Size: 63939756
+MD5sum: 30534e1ab92e7fb018164e0b781f7062
+SHA1: c74da52eff2bede0684edcac2b9f9391a1dee1ec
+SHA256: 7723045519691850f2f2269da8d73e67e46ee6aa56d21513f902b1795ea9104c
+SHA512: f7baff4ebe25b0b419622de7c01212a3e54d7c5317935c94f9de963420f6d021bd07cdb2123ba77e40d95a05f489fb5976afd878cd9d0f9ff18b8d8c765cc3f1
 Homepage: https://golang.org
 Description: Compiled for ARM64.
 	Open source programming language to build simple/reliable/efficient software.
