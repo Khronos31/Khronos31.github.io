@@ -51,38 +51,6 @@ Tag: role::developer
 Name: LibreSSL
 Mantainer: Khronos
 
-Package: com.khronos.lua
-Architecture: iphoneos-arm
-Version: 5.3.5-2
-Section: Scripting
-Maintainer: Khronos
-Depends: com.khronos.readline | readline
-Filename: ../debs/armv7/com.khronos.lua_5.3.5-2_iphoneos-arm.deb
-Size: 249386
-MD5sum: 5c360a7ef4106ed3872991a022fdc059
-SHA1: f5a87fb1839f02b9e828dada29ddf6b094a7d977
-SHA256: d14ed23b343510ab8af87565929660bb02f58ea49fe2304d9c7cc00d5c01be6c
-SHA512: 76eb0fee65f983e5de7216b282d733d03d6373e75356fa150c74d3303f1898b340b266c37894f43e2e83b8ac7f0b6d3d044b9fe95cd88126ff320ffa3c38c332
-Description: Lua is a powerful, efficient, lightweight, embeddable scripting language.
-Tag: role::developer, purpose::console
-Name: Lua
-
-Package: com.khronos.readline
-Architecture: iphoneos-arm
-Version: 8.0-2
-Section: Development
-Maintainer: Khronos
-Depends: com.khronos.ncurses | ncurses
-Filename: ../debs/armv7/com.khronos.readline_8.0-2_iphoneos-arm.deb
-Size: 787574
-MD5sum: 5ab762fe8149cb099662e72363f95ecd
-SHA1: 1bc5099b75107b8386db33247b2db2461b9efa11
-SHA256: eedfdef2079bd175f47e560880ca2a4f5d8651fae69b32872a4ae993be3598d8
-SHA512: c0dbdbe3edf804727e0b123863b94485752de0b8a7968f70d8d25483786969a8141e2b49a0bb15055e834d759ac5eb25f62b8bac4ad7bcc443edac96ef2e9ebd
-Description: Gnu Readline library for command line editing
-Tag: role::developer, purpose::library
-Name: Readline
-
 Package: com.khronos.zlib
 Architecture: iphoneos-arm
 Version: 1.2.11-2
@@ -98,19 +66,34 @@ Description: zlib compression library
 Tag: role::developer,purpose::library
 Name: zlib
 
+Package: com.khronos.lua
+Architecture: iphoneos-arm
+Version: 5.3.5-1
+Section: Scripting
+Maintainer: Khronos
+Depends: com.khronos.readline
+Filename: ../debs/common/com.khronos.lua_5.3.5-1_iphoneos-arm.deb
+Size: 495378
+MD5sum: 87a182aec5b25646cc57d183ebd36331
+SHA1: c264760abbb4de3709d23f3e731c29b8b632741a
+SHA256: ec7a1a5e87aab190974d69a97603c49d5d126c9c7c61a0ae1d3e37ffaaab3413
+SHA512: d8b34f345b9044d8a687b39a9b2765116c8db10bcda3479369e8c329317230faa514043082212cfea130074a9a8cd4d3775342a7b67e8a60177ca5491e559e8a
+Description: Lua is a powerful, efficient, lightweight, embeddable scripting language.
+Tag: role::developer, purpose::console
+Name: Lua
+
 Package: com.khronos.luarocks
 Architecture: iphoneos-arm
-Version: 3.2.1-1
+Version: 3.2.1-4
 Section: Packaging
 Maintainer: Khronos
-Installed-Size: 650
-Depends: com.khronos.lua
-Filename: ../debs/common/com.khronos.luarocks_3.2.1-1.deb
-Size: 152446
-MD5sum: 3bed9554373278ec1119e6d2dc4eeebc
-SHA1: 9c25ba6cf38d29a5fdee11c759ca534daaefc0b9
-SHA256: cb11c4bf61c87394384fa090b8a2a1babc8be4d705ba4535d5e8c4fe45126ea0
-SHA512: 668afce86d1f497368b877e76e68ab5f436dd7231b9725fc0ae315960f712407eb3839c823479ebb8d52f5530c887ba68062bcae2389bd49554e68cf70cc566f
+Depends: com.khronos.lua, com.khronos.sdk
+Filename: ../debs/common/com.khronos.luarocks_3.2.1-4_iphoneos-arm.deb
+Size: 152634
+MD5sum: 31192778312698f6a1bd7365971c9df9
+SHA1: 612e9dbaca940acb54279a30623e25c9a540a008
+SHA256: d0e1f1865cde671ed900ccccd504b920a4a266973f4e8c946da72203b5f94ea2
+SHA512: f36e85ac5bdb02e7ebadec3b4ab13165a63685c3d7c162b201ea717f44d51d816bb721c5cdcd7fb9907462f922bb56f3db3e8734b4b507043f978c27ab5dae26
 Description: A package manager for Lua modules.
 Tag: role::developer,purpose::console
 Name: LuaRocks
@@ -129,6 +112,45 @@ SHA512: 6a5c731b92b19a091ca96ee0cc86610a8e9fb2b524eafa5e72fa380ca224168602c0d24f
 Description: IPA dictionary for MeCab.
 Tag: role::enduser
 Name: MeCab-ipadic
+
+Package: com.khronos.ncurses
+Architecture: iphoneos-arm
+Version: 6.1-1
+Priority: optional
+Section: System
+Maintainer: Khronos
+Pre-Depends: dpkg
+Filename: ../debs/common/com.khronos.ncurses_6.1-1_iphoneos-arm.deb
+Size: 1995608
+MD5sum: d3bd543bfa1317ba30bca87302395c24
+SHA1: e33e5bb8d0a71e50eb4deafd2ba8196ba4fde497
+SHA256: 6e60718acb15a46f39ced11bdd3fde10237e5edf7f590d64d841ad8807c0405a
+SHA512: 29a75423b1f3dd42e4d93d2b9902cfb30d9e5b060a17812974fd05c918b115021e72fd7ae51b682f1f6879103e90fdc52405b519c31d93276721cf0c2033f115
+Homepage: https://www.gnu.org/software/ncurses/
+Description: Compiled for ARM64/ARMv7.
+	Text-based UI library
+Tag: purpose::library
+Name: New Curses
+
+Package: com.khronos.readline
+Architecture: iphoneos-arm
+Version: 8.0-1
+Priority: optional
+Section: Development
+Maintainer: Khronos
+Pre-Depends: dpkg
+Depends: com.khronos.ncurses
+Filename: ../debs/common/com.khronos.readline_8.0-1_iphoneos-arm.deb
+Size: 473326
+MD5sum: cc3fc84c43e7a9c272d2cb622bb2539c
+SHA1: 3a7ebbbc419ec711aaafd6843eb2e3d433b4e104
+SHA256: 8405faaea9cb6fc86439053f8fc09eda18b7723720a7d2b103637a366b8df4d9
+SHA512: 1ffce94fcf155ca5a1df076de02b7fcd81a4266731798cdf59b49065fb17f5236e80918e686dae85e6b9549352094fe71f5338bd11e80930201255d1251623b9
+Homepage: https://tiswww.case.edu/php/chet/readline/rltop.html
+Description: Compiled for ARM64/ARMv7.
+	Library for command-line editing
+Tag: purpose::library
+Name: readline
 
 Package: com.khronos.sdk
 Architecture: iphoneos-arm
@@ -153,4 +175,64 @@ Description: Compiled for ARM64/ARMv7.
 	This package does not illegally redistribute the iPhoneOS SDK, only the LLVM C++ headers which are under the Illinois Open Source License & MIT license and headers under the APSL version 2.0 license. (TLDR, please don't sue.) See /usr/SDK/README for more information about these licenses.
 	I /could/ just package the whole SDK (except for headers with the APSL V1.1 license). It's /really/ unclear on the terms of distribution of the iOS SDK (Xcode's agreement says "you can't", but the headers points to maybe because opensource. IANAL). It's unclear if the *.tbd files are safe to redistribute.
 Name: SDK Installer
+
+Package: com.khronos.xz
+Architecture: iphoneos-arm
+Version: 5.2.4-1
+Priority: optional
+Section: Archiving
+Maintainer: Khronos
+Pre-Depends: dpkg
+Conflicts: xz
+Replaces: lzma (<< 1:0)
+Filename: ../debs/common/com.khronos.xz_5.2.4-1_iphoneos-arm.deb
+Size: 1013818
+MD5sum: fe3a73a52ba34ded48c183b65e4b9a1e
+SHA1: 9af1a96b999130ceec23bd072e1c89fc5325a227
+SHA256: d9b8f3429d7dbb9090e2e6ec4b40c605ae3b8a7c0959160920867b1c873b8c3b
+SHA512: 17fc0c3d7b2e357770d16e148c05732550531840995211e799313d04e29f1850c14757520c5aaf58b8168188ec8298eb50966ad0866f93435229a3648b91a533
+Homepage: https://tukaani.org/xz/
+Description: Compiled for ARM64/ARMv7.
+	General-purpose data compression with high compression ratio
+Tag: purpose::console
+Name: XZ Utils
+
+Package: coreutils-bin
+Architecture: iphoneos-arm
+Version: 8.31-1
+Priority: required
+Essential: yes
+Section: Utilities
+Maintainer: Khronos
+Provides: dirname, kill, mktemp, su
+Depends: firmware (<< 11.0)
+Replaces: shell-cmds (<< 118-5), coreutils (<= 7.2-9)
+Filename: ../debs/common/coreutils-bin_8.31-1_iphoneos-arm.deb
+Size: 2752370
+MD5sum: 10bdc968cba4a41e20b0662292ca0da9
+SHA1: 84db749f0da060586a102036936e9ab01c0234fa
+SHA256: 8a48b8768c905af901baf1b947da0cea315dd5a374b806b3355ede0ebb497985
+SHA512: 1925f459056b63dbd392a1fd7a0ec1b9e855b33f6e287481c5143fa9a180c6fb3fce613b130ca034d4ab6fbe5c59b30bea5e75e7209bbe41e100a03723c84333
+Homepage: http://www.gnu.org/software/coreutils/
+Description: just the /bin folder from GNU coreutils
+Name: Core Utilities (/bin)
+
+Package: coreutils
+Architecture: iphoneos-arm
+Version: 8.31-1
+Priority: standard
+Maintainer: Khronos
+Provides: md5sum, sha1sum
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: bash, coreutils-bin (>= 7.4-5), profile.d, firmware (<< 11.0)
+Replaces: netatalk (<= 2.0.3-6)
+Filename: ../debs/common/coreutils_8.31-1_iphoneos-arm.deb
+Size: 5732530
+MD5sum: 5cc4722794f2cd2a0e91c07185b90cbd
+SHA1: d4457f2559786ae6f36a200e85ff601d2c4e1283
+SHA256: 9db88c7010b3491e79b22a7c52dfcce5ee990a18a61c1813e92e4e941b663e2d
+SHA512: 350cd16ab5ab72eba18d4c4a37123cc89e1db2e6fce3eaa5a036d56f4d9147117c2c154024478b9c69a38c722397730f60386284d7554b2b0f08703d965febce
+Homepage: http://www.gnu.org/software/coreutils/
+Description: core set of Unix shell utilities from GNU
+Name: Core Utilities
 
