@@ -115,17 +115,20 @@ Name: MeCab-ipadic
 
 Package: com.khronos.ncurses
 Architecture: iphoneos-arm
-Version: 6.1-1
+Version: 6.1-2
 Priority: optional
 Section: System
 Maintainer: Khronos
+Provides: com.mc.ncurses
 Pre-Depends: dpkg
-Filename: ../debs/common/com.khronos.ncurses_6.1-1_iphoneos-arm.deb
-Size: 1995608
-MD5sum: d3bd543bfa1317ba30bca87302395c24
-SHA1: e33e5bb8d0a71e50eb4deafd2ba8196ba4fde497
-SHA256: 6e60718acb15a46f39ced11bdd3fde10237e5edf7f590d64d841ad8807c0405a
-SHA512: 29a75423b1f3dd42e4d93d2b9902cfb30d9e5b060a17812974fd05c918b115021e72fd7ae51b682f1f6879103e90fdc52405b519c31d93276721cf0c2033f115
+Conflicts: com.mc.ncurses
+Replaces: com.mc.ncurses
+Filename: ../debs/common/com.khronos.ncurses_6.1-2_iphoneos-arm.deb
+Size: 1995670
+MD5sum: 984f671267f271d09e1e3a1cda861305
+SHA1: f1f6d5067af39198f67fbf93677655049a7ca2c6
+SHA256: f3a5e1b160bf4a5dd1f6fd268a6728372a00dd644ddceeb6026fd7dc0fa4d82b
+SHA512: 3103df03f1b0e4f87caf6ee061fbdd5fd4d01f73b23a45ff4107fbb2101ff78628f66d78945fa5a9ddcb50e821124428e77fed3db72165f73cb01e3f9d7d6039
 Homepage: https://www.gnu.org/software/ncurses/
 Description: Compiled for ARM64/ARMv7.
 	Text-based UI library
@@ -134,18 +137,21 @@ Name: New Curses
 
 Package: com.khronos.readline
 Architecture: iphoneos-arm
-Version: 8.0-1
+Version: 8.0-2
 Priority: optional
 Section: Development
 Maintainer: Khronos
+Provides: com.mc.readline
 Pre-Depends: dpkg
 Depends: com.khronos.ncurses
-Filename: ../debs/common/com.khronos.readline_8.0-1_iphoneos-arm.deb
-Size: 473326
-MD5sum: cc3fc84c43e7a9c272d2cb622bb2539c
-SHA1: 3a7ebbbc419ec711aaafd6843eb2e3d433b4e104
-SHA256: 8405faaea9cb6fc86439053f8fc09eda18b7723720a7d2b103637a366b8df4d9
-SHA512: 1ffce94fcf155ca5a1df076de02b7fcd81a4266731798cdf59b49065fb17f5236e80918e686dae85e6b9549352094fe71f5338bd11e80930201255d1251623b9
+Conflicts: com.mc.readline
+Replaces: com.mc.readline
+Filename: ../debs/common/com.khronos.readline_8.0-2_iphoneos-arm.deb
+Size: 473360
+MD5sum: dcdedb503c0d8948e466f94275f38417
+SHA1: 56b3bcef37ffaa8898f88bb73ec03c971847c059
+SHA256: 6151e094a06e04ff31d35b57d92af56567ff73c0d4edcc05b662145016861485
+SHA512: 2f948a435de130b7f2cbc1087433cb94f7cce95fa92be96f1f513eb30f20695ac0260ebaf8bcaaa3e4aedb87a022b7c3514c1c6d85a2cb72814d4920fa676f6e
 Homepage: https://tiswww.case.edu/php/chet/readline/rltop.html
 Description: Compiled for ARM64/ARMv7.
 	Library for command-line editing
