@@ -1,101 +1,42 @@
-Package: com.khronos.golang
+Package: com.khronos.lua
 Architecture: iphoneos-arm
-Version: 1.13.5-11
+Version: 5.3.5-2
 Priority: optional
 Section: Scripting
 Maintainer: Khronos
 Pre-Depends: dpkg
-Depends: com.khronos.sdk
-Conflicts: com.mc.golang
-Filename: ../debs/armv7/com.khronos.golang_1.13.5-11_armv7.deb
-Size: 64813552
-MD5sum: 702ab8a6b9ef8f320a5430bddf960904
-SHA1: 5e3779dfe2c5af2adb9408598507a37015a4cc19
-SHA256: f7a4e01f5bb94aae2ffac76f3b5c1915958bc94eb79c25e66db8150b7f06020d
-SHA512: 38298825191c402b73a815ae0c56de884f9cbde0bea81bac2827bb13a3cd8d9e1c7368afce4710c1ede47d389234f79b6d89a8644ab1408d1b28c9367bf6e092
-Homepage: https://golang.org
-Description: Compiled for ARMv7.
-	Open source programming language to build simple/reliable/efficient software.
-	Golang is built statically and therefore is large (300mb warning!).
-	Make sure to not let dpkg/Cydia die when installing.
-Tag: purpose::console
-Name: Go
-
-Package: com.khronos.libiconv
-Architecture: iphoneos-arm
-Version: 1.15-2
-Section: Development
-Maintainer: Khronos
-Filename: ../debs/armv7/com.khronos.libiconv_1.15-2_iphoneos-arm.deb
-Size: 743792
-MD5sum: 932df0dfc1e78c1edc2018fac9697b5d
-SHA1: e8431b55a9d8130b4528bacaf110ec3096cb844f
-SHA256: a2c0b441c445a4dde2bd59ddab62708df251853ffa9aa94c3ecf88a61dfae27d
-SHA512: 0cf4c851e0b03ae8899bae4d1f57cd670816092022de07df1df81a193489b4d16c60f0e70e0e00e22ed26654e0b7967b5fa0c9fdaaf415a9dcdeb878c50ed0be
-Description: charset conversion library
-Tag: role::developer, purpose::library
-Name: libiconv
-
-Package: com.khronos.libressl
-Architecture: iphoneos-arm
-Version: 2.9.0-2
-Section: Security
-Filename: ../debs/armv7/com.khronos.libressl_2.9.0-2_iphoneos-arm.deb
-Size: 6258870
-MD5sum: 92479fe02d36751b23dbc08859e99630
-SHA1: bb759c1263ebde9e69cd03a9775f036a3ea20842
-SHA256: c49363a36686de9a6aa941b4bc8ed30c77e58b68a1287c115e39bcf4ff2cd101
-SHA512: 3b01aaa0c58773feaebb70b6ca68f45dd32745a16afd9015facb431ed2beface701c4eb0e093421d27ae351bf4a7f221d8e8ead4eaaf301c716ad8c6147c5e15
-Description: Secure Sockets Layer and cryptography libraries and tools
-Tag: role::developer
-Name: LibreSSL
-Mantainer: Khronos
-
-Package: com.khronos.zlib
-Architecture: iphoneos-arm
-Version: 1.2.11-2
-Section: Development
-Maintainer: Khronos
-Filename: ../debs/armv7/com.khronos.zlib_1.2.11-2_iphoneos-arm.deb
-Size: 124188
-MD5sum: 886db7ea7c81481c8ca5e87ff1f39c10
-SHA1: bc5e7311700f5de58d7055added5d92c3a574d58
-SHA256: d17ed5934f94e01b795d0062846843ce2b8bb0a407506125fdd3d626d0695044
-SHA512: d47c975be665af3f28aec1969d6ffd73af11b6af0545fb818f9aabb644799a7fb75e35c09c7c16ed128e21d0344a87f3373294b623759257c828a72195bcba8f
-Description: zlib compression library
-Tag: role::developer,purpose::library
-Name: zlib
-
-Package: com.khronos.lua
-Architecture: iphoneos-arm
-Version: 5.3.5-1
-Section: Scripting
-Maintainer: Khronos
 Depends: com.khronos.readline
-Filename: ../debs/common/com.khronos.lua_5.3.5-1_iphoneos-arm.deb
-Size: 495378
-MD5sum: 87a182aec5b25646cc57d183ebd36331
-SHA1: c264760abbb4de3709d23f3e731c29b8b632741a
-SHA256: ec7a1a5e87aab190974d69a97603c49d5d126c9c7c61a0ae1d3e37ffaaab3413
-SHA512: d8b34f345b9044d8a687b39a9b2765116c8db10bcda3479369e8c329317230faa514043082212cfea130074a9a8cd4d3775342a7b67e8a60177ca5491e559e8a
-Description: Lua is a powerful, efficient, lightweight, embeddable scripting language.
-Tag: role::developer, purpose::console
+Conflicts: com.mc.lua
+Filename: ../debs/common/com.khronos.lua_5.3.5-2_iphoneos-arm.deb
+Size: 495422
+MD5sum: dba9a189c4cacdb71edf45eb7f8a3ebf
+SHA1: 11eca412ebb666e1a5154f5f29b301905da27e7b
+SHA256: ba16d9fd36e4c38f6828c4328ef39be5fd2ae73ff9b582b329830f8845dfb090
+SHA512: ff035b7f66c7c4cbeef7dc93e9f9f290e305b9d8555bae2340d778a268c8508ce69a44e8ce27870666bf4177df232730f6e75178d42d665c441204d72defd7a5
+Homepage: https://lua.org
+Description: Compiled for ARM64/ARMv7.
+	Lua is a powerful, efficient, lightweight, embeddable scripting language.
+Tag: purpose::console
 Name: Lua
 
 Package: com.khronos.luarocks
 Architecture: iphoneos-arm
-Version: 3.2.1-4
+Version: 3.2.1-5
+Priority: optional
 Section: Packaging
 Maintainer: Khronos
+Pre-Depends: dpkg
 Depends: com.khronos.lua, com.khronos.sdk
-Filename: ../debs/common/com.khronos.luarocks_3.2.1-4_iphoneos-arm.deb
-Size: 152634
-MD5sum: 31192778312698f6a1bd7365971c9df9
-SHA1: 612e9dbaca940acb54279a30623e25c9a540a008
-SHA256: d0e1f1865cde671ed900ccccd504b920a4a266973f4e8c946da72203b5f94ea2
-SHA512: f36e85ac5bdb02e7ebadec3b4ab13165a63685c3d7c162b201ea717f44d51d816bb721c5cdcd7fb9907462f922bb56f3db3e8734b4b507043f978c27ab5dae26
-Description: A package manager for Lua modules.
-Tag: role::developer,purpose::console
+Filename: ../debs/common/com.khronos.luarocks_3.2.1-5_iphoneos-arm.deb
+Size: 152682
+MD5sum: aa2602a2cc1b36748257c304d72df077
+SHA1: 0c5c5559e609b1695f61c2a7c4b929de8362e20e
+SHA256: e7db1c668f09c8825448bd866ea103654ffb8d0bb34ed028c56a9e58678e60e9
+SHA512: 9007bc9e72e3ae3008dd46c553be1e0e04306225a1b499b2ae8fca23f25b310429ac98ef0ff987a6a7a6db59ca13989dabd8838406542453e62b0b7384e0fb16
+Homepage: https://luarocks.org
+Description: Compiled for ARM64/ARMv7.
+	A package manager for Lua modules.
+Tag: purpose::console
 Name: LuaRocks
 
 Package: com.khronos.mecab-ipadic
@@ -134,6 +75,26 @@ Description: Compiled for ARM64/ARMv7.
 	Text-based UI library
 Tag: purpose::library
 Name: New Curses
+
+Package: com.khronos.nim
+Architecture: iphoneos-arm
+Version: 1.0.4-1
+Priority: optional
+Section: Scripting
+Maintainer: Khronos
+Pre-Depends: dpkg
+Depends: com.khronos.sdk
+Filename: ../debs/common/com.khronos.nim_1.0.4-1_iphoneos-arm.deb
+Size: 10230150
+MD5sum: ea91b3b3c84054c28ad2203da5f45ae8
+SHA1: 312a8e9354eae80eddb3c24fb86c6a0150c81c5f
+SHA256: fdffa1349b6c7adf0a3fb511030e3ff5305ef47af207328eeef74778aaa3e908
+SHA512: 5233598abae7bba735cef19d175f115287dc78569ab8773db2c9aa22c7c94fc1ddb50262f8b222e3c9f4df21df4621fb65a09a2ea4b9388bb542ef739ff5f807
+Homepage: https://nim-lang.org
+Description: Compiled for ARM64/ARMv7.
+	Nim is a statically typed compiled systems programming language. It combines successful concepts from mature languages like Python, Ada and Modula.
+Tag: purpose::console
+Name: Nim
 
 Package: com.khronos.readline
 Architecture: iphoneos-arm
@@ -203,42 +164,71 @@ Description: Compiled for ARM64/ARMv7.
 Tag: purpose::console
 Name: XZ Utils
 
-Package: coreutils-bin
+Package: com.khronos.golang
 Architecture: iphoneos-arm
-Version: 8.31-1
-Priority: required
-Essential: yes
-Section: Utilities
+Version: 1.13.5-11
+Priority: optional
+Section: Scripting
 Maintainer: Khronos
-Provides: dirname, kill, mktemp, su
-Depends: firmware (<< 11.0)
-Replaces: shell-cmds (<< 118-5), coreutils (<= 7.2-9)
-Filename: ../debs/common/coreutils-bin_8.31-1_iphoneos-arm.deb
-Size: 2752370
-MD5sum: 10bdc968cba4a41e20b0662292ca0da9
-SHA1: 84db749f0da060586a102036936e9ab01c0234fa
-SHA256: 8a48b8768c905af901baf1b947da0cea315dd5a374b806b3355ede0ebb497985
-SHA512: 1925f459056b63dbd392a1fd7a0ec1b9e855b33f6e287481c5143fa9a180c6fb3fce613b130ca034d4ab6fbe5c59b30bea5e75e7209bbe41e100a03723c84333
-Homepage: http://www.gnu.org/software/coreutils/
-Description: just the /bin folder from GNU coreutils
-Name: Core Utilities (/bin)
+Pre-Depends: dpkg
+Depends: com.khronos.sdk
+Conflicts: com.mc.golang
+Filename: ../debs/armv7/com.khronos.golang_1.13.5-11_armv7.deb
+Size: 64813552
+MD5sum: 702ab8a6b9ef8f320a5430bddf960904
+SHA1: 5e3779dfe2c5af2adb9408598507a37015a4cc19
+SHA256: f7a4e01f5bb94aae2ffac76f3b5c1915958bc94eb79c25e66db8150b7f06020d
+SHA512: 38298825191c402b73a815ae0c56de884f9cbde0bea81bac2827bb13a3cd8d9e1c7368afce4710c1ede47d389234f79b6d89a8644ab1408d1b28c9367bf6e092
+Homepage: https://golang.org
+Description: Compiled for ARMv7.
+	Open source programming language to build simple/reliable/efficient software.
+	Golang is built statically and therefore is large (300mb warning!).
+	Make sure to not let dpkg/Cydia die when installing.
+Tag: purpose::console
+Name: Go
 
-Package: coreutils
+Package: com.khronos.libiconv
 Architecture: iphoneos-arm
-Version: 8.31-1
-Priority: standard
+Version: 1.15-2
+Section: Development
 Maintainer: Khronos
-Provides: md5sum, sha1sum
-Pre-Depends: dpkg (>= 1.14.25-8)
-Depends: bash, coreutils-bin (>= 7.4-5), profile.d, firmware (<< 11.0)
-Replaces: netatalk (<= 2.0.3-6)
-Filename: ../debs/common/coreutils_8.31-1_iphoneos-arm.deb
-Size: 5732530
-MD5sum: 5cc4722794f2cd2a0e91c07185b90cbd
-SHA1: d4457f2559786ae6f36a200e85ff601d2c4e1283
-SHA256: 9db88c7010b3491e79b22a7c52dfcce5ee990a18a61c1813e92e4e941b663e2d
-SHA512: 350cd16ab5ab72eba18d4c4a37123cc89e1db2e6fce3eaa5a036d56f4d9147117c2c154024478b9c69a38c722397730f60386284d7554b2b0f08703d965febce
-Homepage: http://www.gnu.org/software/coreutils/
-Description: core set of Unix shell utilities from GNU
-Name: Core Utilities
+Filename: ../debs/armv7/com.khronos.libiconv_1.15-2_iphoneos-arm.deb
+Size: 743792
+MD5sum: 932df0dfc1e78c1edc2018fac9697b5d
+SHA1: e8431b55a9d8130b4528bacaf110ec3096cb844f
+SHA256: a2c0b441c445a4dde2bd59ddab62708df251853ffa9aa94c3ecf88a61dfae27d
+SHA512: 0cf4c851e0b03ae8899bae4d1f57cd670816092022de07df1df81a193489b4d16c60f0e70e0e00e22ed26654e0b7967b5fa0c9fdaaf415a9dcdeb878c50ed0be
+Description: charset conversion library
+Tag: role::developer, purpose::library
+Name: libiconv
+
+Package: com.khronos.libressl
+Architecture: iphoneos-arm
+Version: 2.9.0-2
+Section: Security
+Filename: ../debs/armv7/com.khronos.libressl_2.9.0-2_iphoneos-arm.deb
+Size: 6258870
+MD5sum: 92479fe02d36751b23dbc08859e99630
+SHA1: bb759c1263ebde9e69cd03a9775f036a3ea20842
+SHA256: c49363a36686de9a6aa941b4bc8ed30c77e58b68a1287c115e39bcf4ff2cd101
+SHA512: 3b01aaa0c58773feaebb70b6ca68f45dd32745a16afd9015facb431ed2beface701c4eb0e093421d27ae351bf4a7f221d8e8ead4eaaf301c716ad8c6147c5e15
+Description: Secure Sockets Layer and cryptography libraries and tools
+Tag: role::developer
+Name: LibreSSL
+Mantainer: Khronos
+
+Package: com.khronos.zlib
+Architecture: iphoneos-arm
+Version: 1.2.11-2
+Section: Development
+Maintainer: Khronos
+Filename: ../debs/armv7/com.khronos.zlib_1.2.11-2_iphoneos-arm.deb
+Size: 124188
+MD5sum: 886db7ea7c81481c8ca5e87ff1f39c10
+SHA1: bc5e7311700f5de58d7055added5d92c3a574d58
+SHA256: d17ed5934f94e01b795d0062846843ce2b8bb0a407506125fdd3d626d0695044
+SHA512: d47c975be665af3f28aec1969d6ffd73af11b6af0545fb818f9aabb644799a7fb75e35c09c7c16ed128e21d0344a87f3373294b623759257c828a72195bcba8f
+Description: zlib compression library
+Tag: role::developer,purpose::library
+Name: zlib
 
