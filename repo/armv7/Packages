@@ -166,24 +166,22 @@ Name: XZ Utils
 
 Package: com.khronos.golang
 Architecture: iphoneos-arm
-Version: 1.13.5-11
+Version: 1.13.6-1
 Priority: optional
 Section: Scripting
 Maintainer: Khronos
 Pre-Depends: dpkg
 Depends: com.khronos.sdk
 Conflicts: com.mc.golang
-Filename: ../debs/armv7/com.khronos.golang_1.13.5-11_armv7.deb
-Size: 64813552
-MD5sum: 702ab8a6b9ef8f320a5430bddf960904
-SHA1: 5e3779dfe2c5af2adb9408598507a37015a4cc19
-SHA256: f7a4e01f5bb94aae2ffac76f3b5c1915958bc94eb79c25e66db8150b7f06020d
-SHA512: 38298825191c402b73a815ae0c56de884f9cbde0bea81bac2827bb13a3cd8d9e1c7368afce4710c1ede47d389234f79b6d89a8644ab1408d1b28c9367bf6e092
+Filename: ../debs/armv7/com.khronos.golang_1.13.6-1_armv7.deb
+Size: 64876440
+MD5sum: 8a278cac2b56632bdbf61e742288ccd0
+SHA1: c51bfe82b738166a15d4be93235c6bd6c7296129
+SHA256: 89070138b281c9efc9f1b412a38ff374714fe5b290318d2a1d688fe3605b96dc
+SHA512: 83cf714a5cf7f05b27eab1dc356598b85d9a39a36cf551fd80e3a85178282db7f4b63ac6f7e8ced4f565807394f4c9fc61bc9abc862797716bd866746a5ec61d
 Homepage: https://golang.org
 Description: Compiled for ARMv7.
 	Open source programming language to build simple/reliable/efficient software.
-	Golang is built statically and therefore is large (300mb warning!).
-	Make sure to not let dpkg/Cydia die when installing.
 Tag: purpose::console
 Name: Go
 
