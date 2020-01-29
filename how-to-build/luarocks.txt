@@ -1,7 +1,0 @@
-GitHubからtar.gzをダウンロードして展開
-./configure
-make
-make install prefix=$(pwd)/build/usr/local sysconfdir='$(prefix)/etc' rocks_tree='$(prefix)'
-./build/usr/local/etc/luarocks/config-*.lua,./build/usr/local/bin/luarocks*内のパスから/var/mobile/*/buildを削除
-./build/usr/local/share/lua/5.3/luarocks/core/cfg.lua内のif platforms.macosx内のCCとLDをclangに変更、web_blowserをuiopenに変更
-
